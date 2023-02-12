@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<p>
+    <input
+    value="delete this item"
+    type="button"
+    onclick="location.href='{% url "item-delete"  %}'"
+    />
+    </p>
+{% endblock %}
